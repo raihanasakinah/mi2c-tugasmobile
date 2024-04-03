@@ -7,7 +7,7 @@ class PagePassingData extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.orange,
+        backgroundColor: Colors.grey,
         title: Text('Page Passing Data'),
       ),
       body: ListView.builder(
@@ -37,7 +37,7 @@ class PageGetData extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.green,
+        backgroundColor: Colors.grey,
         title: Text('Page Get Data'),
       ),
 
@@ -73,7 +73,7 @@ class _PageLoginState extends State<PageLogin> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.cyan,
+        backgroundColor: Colors.blueGrey,
         title: Text('Page Login'),
       ),
       body: Center(
@@ -114,7 +114,7 @@ class _PageLoginState extends State<PageLogin> {
                 }
               },
               child: Text('Login'),
-              color: Colors.green,
+              color: Colors.blueGrey,
               textColor: Colors.white,
             )
           ],
@@ -129,7 +129,7 @@ class WelcomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.cyan,
+        backgroundColor: Colors.blueGrey,
         title: Text('Welcome Admin'),
       ),
       body: Center(

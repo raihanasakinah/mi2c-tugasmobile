@@ -9,7 +9,7 @@ class PageNavigationBar extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.orange,
+        backgroundColor: Colors.grey,
         title: Text('Page Navigation Bar'),
       ),
 
@@ -26,7 +26,7 @@ class PageNavigationBar extends StatelessWidget {
                   radius: 55,
                   child: Icon(
                     Icons.person,
-                    color: Colors.green,
+                    color: Colors.blueGrey,
                     size: 65,
                   ),
                 ),
@@ -104,7 +104,7 @@ class PageRow extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.orange,
+        backgroundColor: Colors.grey,
         title: Text('Page Row'),
       ),
 
@@ -117,7 +117,7 @@ class PageRow extends StatelessWidget {
             Icon(Icons.person),
             Icon(
               Icons.add_call,
-              color: Colors.orange,
+              color: Colors.grey,
               size: 64,
             ),
           ],
